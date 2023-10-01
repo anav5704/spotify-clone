@@ -1,5 +1,5 @@
 export default function Home() {
   return (
-    <h1>Spotify</h1>
+    <h1 className="text-green-500">Spotify</h1>
   )
 }
