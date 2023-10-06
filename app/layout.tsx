@@ -12,7 +12,7 @@ import './globals.css'
 const figtree = Figtree({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-    title: 'Not Spotify',
+    title: 'Definitely Not Spotify',
     description: 'Listen to music!',
 }
 
