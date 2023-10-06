@@ -25,7 +25,6 @@ const Header = ({ children, className }: HeaderProps) => {
 
     const handleLogout = async () => {
        const { error } = await supabaseClient.auth.signOut()
-       // reset playing songs
        error ? toast.error(error.message) : toast.success("Successfully logged out!") 
        router.refresh()
     }
@@ -55,7 +54,7 @@ const Header = ({ children, className }: HeaderProps) => {
                          <Button onClick={handleLogout} className="bg-white px-6 py-2">
                                 Logout
                             </Button>  
-                            <Button onClick={() => router.push("/account")} className="bg-white">
+                            <Button className="bg-white">
                                 <FaUserAlt />
                             </Button>  
                     </div>

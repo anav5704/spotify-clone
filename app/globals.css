@@ -10,3 +10,16 @@ body,
     /* background-color: #1D1C1D; */
     color-scheme: dark;
 }
+
+::-webkit-scrollbar {
+    display: none;
+}
+  
+  ::-webkit-scrollbar-track {
+    display: none;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    display: none;
+  }
+  
