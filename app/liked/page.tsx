@@ -9,7 +9,7 @@ const Liked = async () => {
     const songs = await getLikedSongs()
 
   return (
-    <div className="bg-neutral-900 rounded-lg h-full w-ful overflow-hidden overflow-y-auto">
+    <div className="bg-neutral-900 md:rounded-lg h-full w-ful overflow-hidden overflow-y-auto">
         <Header>
             <div className="mt-10">
                 <div className="flex flex-col md:flex-row gap-x-5 items-center">

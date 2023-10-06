@@ -28,7 +28,7 @@ const AuthModal = () => {
     }
 
   return (
-    <Modal isOpen={isOpen} onChange={handleChange} title="Auth Modal" description="Auth description">
+    <Modal isOpen={isOpen} onChange={handleChange} title="Spotify by Anav">
         <Auth theme="dark" magicLink providers={["github"]} supabaseClient={supabaseClient}  appearance={{theme: ThemeSupa, variables: {default: {colors: {brand: "#404040", brandAccent: "#22c55e"}}}}}/>
     </Modal>
   )

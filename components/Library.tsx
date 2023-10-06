@@ -38,7 +38,7 @@ const Library = ({ songs }: LibraryProps    ) => {
             </div>
             <AiOutlinePlus onClick={handleClick} size={20} className="text-neutral-400 cursor-pointer hover:text-white transition"/>
         </div>
-        <div className="flex flex-col gap-y-2 mt-4 px-3 ">
+        <div className="flex flex-col gap-y-2 my-4 px-3 ">
             {songs.map((song) => (
                <MediaItem onClick={(id: string) => onPlay(id)} song={song} key={song.id}/>
             ))}
