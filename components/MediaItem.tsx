@@ -23,7 +23,7 @@ const MediaItem = ({ song, onClick, dontHover }: MediaItemProps) => {
     }
 
   return (
-    <div onClick={handleClick} className={`flex items-center gap-x-3 cursor-pointer ${dontHover || "hover:bg-neutral-500/50"} w-full p-2 rounded-md`}> 
+    <div onClick={handleClick} className={`flex items-center gap-x-3 cursor-pointer ${dontHover || "hover:bg-neutral-500/50"} w-full p-2 rounded-md transition`}> 
       <div className="relative overflow-hidden rounded-md min-w-[48px] min-h-[48px]">
             <Image src={imagePath || ""} alt={`image cover for song titled ${song.title}`} fill className="object-cover" />
         </div>
