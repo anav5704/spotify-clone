@@ -18,7 +18,7 @@ const SearchInput = () => {
     }, [deboundedValue, router])
 
   return (
-    <Input placeholder="What are we listen to?" value={value} onChange={(e) => setValue(e.target.value)}/>
+    <Input placeholder="What are we listening to?" value={value} onChange={(e) => setValue(e.target.value)}/>
   )
 }
 

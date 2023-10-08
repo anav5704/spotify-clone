@@ -13,7 +13,7 @@ const Liked = async () => {
         <Header>
             <div className="mt-10">
                 <div className="flex flex-col md:flex-row gap-x-5 items-center">
-                    <div className="relative h-32 w-32 lg:h-44 lg:w-44">
+                    <div className="relative h-32 w-32 lg:h-44 lg:w-44 rounded-lg overflow-hidden">
                         <Image fill src={"/images/liked.png"} alt="heart image" className="object-cover"/>
                     </div>
                     <div className="flex flex-col gap-y-2 mt-4 md:mt-0">
