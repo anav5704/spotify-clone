@@ -7,5 +7,5 @@ This is a full-stack Spotify clone but without premium. Users can add their own 
 ## Technologies Used
 - Next JS 13
 - TailwindCSS
-- Supabase  Postgres
-- Supabade Auth
+- Supabase Postgres
+- Supabase Auth
